@@ -2,10 +2,10 @@
 Config = {}
 Config.UseWhitelist = false                        -- Use whitelist? Only people that are whitelisted are allowed to join.
 Config.UsePassword  = true                        -- Use password? If whitelist and password are true, you have to be whitelisted and know the password.
-Config.Password     = 'suasenha'                   -- Password
+Config.Password     = 'password'                   -- Password
 Config.Attempts     = 3                            -- How many attempts a user has to enter the correct password
 Config.CleverMode   = false                         -- Use clever mode? If this is true, you will have to either be whitelisted *or* know the password. Recommended.
-Config.DiscordLink  = 'seudiscord' -- Your Discord server invite link.
+Config.DiscordLink  = 'discord' -- Your Discord server invite link.
 Config.Whitelist    = {                            -- You normally only need one identifier per person.
     'steam:11000010a2324b4',                               -- Puntherline: Steam
     'license:145ebc08c3ab10a72172c4e98483a4329a3f876e',    -- Puntherline: FiveM
